@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<title>Week 06</title>
+<head>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Week 06 Code 01: Comparison operator</h1>
+    <p id="p01"></p>
+    <p id="p02"></p>
+    <p id="p03"></p>
+    <script>
+        let a=5, b=10, c="5"
+        document.write("The value of a ="+a);
+        document.write("<br>The value of b ="+b);
+        document.write("<br>The value of c ="+c);
+        /*show the results at p01*/
+        document.getElementById("p01").innerHTML = (a==c);
+        document.getElementById("p02").innerHTML = (a===c);
+        document.getElementById("p03").innerHTML = (a<b);
+    </script>
+</body>
+
+<!--code 02-->
+
+<body>
+    <h1>Week 06 code 2: conditonal statment</h1>
+    <script>
+        let d =15;
+        if(d < 18)
+        {
+            document.write("Good Afternoon");
+        }
+        else{
+            document.write("Good Evening");
+        }
+    </script>
+</body>
+
+<!--code 03-->
+<head>
+
+</head>
+<body>
+    <h1>Week 06 code 03: Javascript arrays</h1>
+
+</body>
+
+<script>
+    var ArrayName=[" Safouh"," Omar"," Sarah"];
+    document.write("This is my list" +ArrayName);
+    document.write("<br>This is my array length ="+ArrayName.length);
+    document.write("<br>This is name in position 3 "+ArrayName[2]);
+    ArrayName.push(" Moumen");
+    document.write("<br>New name added is"+ArrayName[3]);
+    ArrayName.push(" bod");
+    document.write("<br>New name added is"+ArrayName[4]);
+    ArrayName.push(" sam");
+    document.write("<br>New name added is"+ArrayName[5]);
+</script>
